@@ -1,0 +1,1384 @@
+.container{ 
+    width: 1170px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-bottom: 25px;
+}
+.logo{
+    display: flex;
+    width: 147px;
+    height: 38.96px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_icon{
+    width:31.79px;
+}
+.logo>p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.searchpanel{
+    display: flex;
+    width: 582px;
+    height: 46px;
+    margin-left: 120px;
+    border-radius: 7px;
+    border: 2px solid #7AC751;
+}
+.input_search{
+    width: 100%;
+    padding-left:25px ;
+}
+.search_icons{
+    display: flex;
+    width: 55px;
+    height: 100%;
+
+}
+.btnsearch{
+    cursor: pointer;
+    width: 100%;
+    background: #7AC751;;
+    border: none;
+   border-top-right-radius:4px;
+    
+}
+.header_btn{
+    display: flex;
+    margin-left: 200px;
+    width: 123px;
+    height: 26px;
+}
+.categories{
+    width: 123px;
+    height: 45px;
+    border: none;
+}
+.searchicon{
+    height: 16px;
+    width: 16px;
+
+}
+.basket{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+.shop{
+    position: relative;
+    display: flex;
+    background: none;
+    border: none;
+}
+.btn_circle{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width: 12px;
+    height: 12px;
+    top: 1px;
+    left: 24px;
+    background: #7AC751;
+    color: #fff;
+    border-radius: 50%;
+}
+.btn_circle>p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 7px;
+}
+.icon_notification{
+    Width:18.42px;
+    Height:100%;
+    cursor: pointer;
+}
+.icon_account{
+    Width:18.42px;
+    Height:100%;
+    cursor: pointer;
+}
+.Notification{
+    fill: none;
+    width: 26;
+    height: 26px;
+}
+.notification{
+    margin-left: 19px;
+    background: none;
+    border: none;
+}
+.account{
+    Width:20.31px;
+    Height:24px;
+    margin-left: 13px;
+    margin-top: 3px;
+    background: none;
+    border: none;    
+}
+.navigation{
+    position: relative;
+    display: flex;
+    width: 1170px;
+    height: 67px;
+    margin-top: 25px;
+    margin: 0 auto;
+}
+.catalog{
+    cursor: pointer;
+    display: flex;
+    width: 260px;
+    height: 67px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.iconcatalog{
+    Width:24px;
+    Height:24px;
+    align-items: center;
+}
+.catalog>p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 23px;
+    color: #fff;
+}
+.nav-bar{
+    display: flex;
+    margin-left: 82px;
+    margin-top: 25px;
+    height: 17px;
+}
+.nav-link{
+    display: flex;
+    width: 100%;
+    column-gap: 65px;
+    text-align: center;
+}
+.link{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+.list{
+    display: none;
+    width: 89%;
+    height: 41px;
+    background:rgba(247, 248, 250, 1);
+    padding-left:29px;
+    border-bottom: 0.8px solid rgba(227, 227, 227, 1);
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.sub-navBtn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 260px;
+    height: 100%;
+    color: #fff;
+    padding-left: 30px;
+    background: rgba(122, 199, 81, 1);
+    border: none;
+}
+.sub-nav{ 
+    display: none;
+    flex-direction: column;
+    row-gap: 1px;
+    position: absolute;
+    list-style: none;
+    width: 260px;
+}
+.sub-navBtn:focus+.sub-nav{
+    display: flex;
+    transform: translateY(68px);
+    
+}
+.sub-nav-item{
+    height: 31px;
+    border-bottom: 0.8px solid #E3E3E3;
+
+}
+.catalog:focus+.list{
+    display: flex;
+}
+li{
+    cursor: pointer;
+    height:41px;
+    padding-top: 10px;
+}
+.a{
+    cursor: pointer;
+    padding-top:10px;
+    width: 100%;
+    height: 20px;
+    background: chartreuse;
+}
+.All{
+    padding-top: 10px;
+}
+.banerContainer{
+    display: flex;
+    width:899px;
+    height: 439px;
+    margin-left: 23%;
+    height: 465px;
+    background: linear-gradient(103.4deg, rgba(241, 250, 255, 0.88) 0.89%, #F1FAFF 101.61%);
+    padding-top: 34px;
+    padding-left: 47px;
+    padding-right: 39px;
+    justify-content: center;
+}
+.banerleft{
+    padding-top: 40px;
+    width: 318px;
+    align-items: center;
+}
+.Top{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color:rgba(122, 199, 81, 1);
+}
+.namebaner{
+    padding-top: 8px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+.imgframe{
+    width:177px;
+    margin-left: 140px;
+}
+.sell{
+    padding-top: 27px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color:rgba(81, 81, 81, 0.71)
+}
+.btnbaner{
+    width: 129px;
+    height: 40px;
+    background:rgba(122, 199, 81, 1);
+    margin-top: 35px;
+    border: none;
+    border-radius:5px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+.banercenter{
+    width: 374px;
+}
+.banerright{
+    display: flex;
+    width: 98px;
+    flex-direction: column;
+    row-gap: 25.53px;
+    margin-top: 20px;
+}
+.smallpicture{
+    width: 100%;
+    height: 91.47px;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.56) 100%);  
+}
+.slider{
+    display: block;
+    height: 53px;
+    margin: 5px auto;
+}
+.priceSlider{
+    text-align: center;
+}
+.nameproductslider{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 7px;
+    text-align: center;
+}
+.buy>p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+.cirle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(122, 199, 81, 0.29);
+}
+.regtanle{
+    width: 24px;
+    height: 9px;
+    background: #7AC751;
+    border-radius: 666px;
+    align-items: center;
+}
+.Advantages{
+    display: flex;
+    width: 100%;
+    height: 58px;
+
+    margin-top: 81px;
+}
+.free{
+    width: 58px;
+}
+.shap{
+    display: flex;
+    width: 133px;
+    margin-top: 6px;
+    margin-left: 15px;
+    flex-wrap: wrap;
+}
+.shipping{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sub-shipping{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(81, 81, 81, 0.71);
+}
+.gift{
+    margin-left: 107px;
+    width: 58px;
+}
+.Gift{
+    width: 151px;
+    margin-top: 6px
+}
+.getcard{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(81, 81, 81, 0.71);
+    margin-top: 8px;
+}
+.wallet{
+    margin-left: 107px;
+    width: 58px;
+    display: flex;
+}
+.Wallet{
+    margin-top: 6px;
+}
+.payment{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sub-payment{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(81, 81, 81, 0.71);
+    margin-top: 8px;
+}
+.supportsvg{
+    width:53.12px;
+    margin-left: 109.44px;
+}
+.support{
+
+    margin-top: 6px;
+}
+.Support{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.sub-support{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(81, 81, 81, 0.71);
+    margin-top: 8px;
+}
+.imgright{
+    display: flex;
+    position: relative;
+    Width:669px;
+    Height:511px;
+}
+.offer{
+    display: flex;
+    width: 100%;
+    margin-top: 70px;
+}
+.textmask+p{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+}
+.starting{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    color:rgba(122, 199, 81, 1);
+}
+.textmask{
+    position: absolute;
+    padding-top: 49px;
+    padding-left: 31px;
+}
+.furniture{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color:rgba(85, 85, 85, 1);
+}
+
+.more{
+    margin-top: 13px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgba(117, 117, 117, 1);
+}
+.arrow{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 19px;
+    width:11px;
+    height: 9px;
+}
+.group{
+    display: flex;
+    height: 26px;
+    cursor: pointer;
+    width: 94.96px;
+}
+.imgleft{
+    width: 100%;
+    padding-left: 18.96px;
+
+}
+.top{
+    position: relative;
+    display: flex;
+}
+.texttop{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 24.04px;
+}
+.geometric{
+    color:rgba(85, 85, 85, 1);
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.sub-giometric{
+    margin-top: 10px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color:rgba(122, 199, 81, 1);
+}
+.bottom{
+    margin-top: 17px;
+    display: flex;
+}
+.textbottom{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 24.04px;
+}
+.sofa{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.sub-sofa{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    color:rgba(122, 199, 81, 1);
+}
+.titletrendeng{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.nav-trending{
+    display: flex;
+    justify-content: center;
+    column-gap: 70px;
+    padding-top: 45px;
+}
+.sub-trending{
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:rgba(194, 194, 194, 1)
+}
+.activetranding{
+    color:rgba(122, 199, 81, 1);
+}
+.trendeng{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    margin-top: 120px;
+    column-gap: 30px;
+    row-gap: 45px;
+}
+.class1{
+    width: 270px;
+}
+.class2{
+    position: relative;
+    width: 270px;
+    height: 387px;
+    overflow: hidden;
+}
+.class3{
+    width: 270px;
+    height: 387px;
+}
+.tren{
+    display: block;
+}
+.class4{
+    width: 270px;
+    height: 387px;
+}
+.class5{
+    width: 270px;
+    height: 387px;
+}
+.class6{
+    width: 270px;
+    height: 387px;
+}
+.class7{
+    width: 270px;
+    height: 387px;
+}
+.class8{
+    width: 270px;
+    height: 387px;
+}
+.chair1{
+    width: 100%;
+    height: 287.82px
+}
+.type{
+    margin-top: 15.18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(117, 117, 117, 0.71);
+}
+.name{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 9px;
+}
+.price{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 8px;
+    color:rgba(122, 199, 81, 1);
+    Width:46px
+}
+.review{
+    width: 66.96px;
+    height: 9.58px;
+    margin-left: 208px;
+}
+.menusvg{
+    width: 24px;
+    height: 24px;
+}
+.dd{
+    display: flex;
+    height: 21px;
+}
+.star{
+    position: absolute;
+    width: 66.96px;
+    height: 9.58px;
+    margin-top: 12px;
+    margin-left: 208px;
+    display: flex;
+}
+
+.feature{
+    position: absolute;
+    margin-top: 83.59px;
+    margin-left: 231px;
+    transition-duration: 1s;
+    transform: translateX(100%);
+}
+.class2:hover>.feature{
+    transition-duration: 0.8s;
+    transform: translateX(0);
+}
+.elipse{
+    cursor: pointer;
+    display: flex;
+    width: 38.85px;
+    height: 38.89px;;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 8.75px;
+    align-items: center;
+    border: none;
+}
+.Oldprice{
+    color: #CCCCCC;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    margin-top: 9px;
+    margin-left: 7px;
+    text-decoration-line:line-through;
+}
+.revision{
+    position: relative;
+}
+.svgrevision{
+    Width:19.43px;
+    Height:15.14px;
+    margin: 0 auto;
+}
+.svgshop{
+    Width:19.42px;
+    Height:19.45px;
+}
+.new{
+    position: absolute;
+    width: 44.68px;
+    height: 20.42px;
+    border-bottom-right-radius: 5px;
+    background:rgba(0, 183, 241, 1);
+}
+.text{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+}
+.sale{
+    position: absolute;
+    width: 44.68px;
+    height: 20.42px;
+    background:rgba(122, 199, 81, 1);
+    border-bottom-right-radius: 5px;
+}
+.page{
+    width: 24px;
+    height: 24px;
+    margin: 0 auto;
+}
+.pageActive{
+    width: 24px;
+    height: 24px;
+}
+.pagediv{
+    display: flex;
+    margin: 0 auto;
+    column-gap: 14px;
+}
+.offe{
+    margin-top: 99px;
+    width: 100%;
+}
+.off{
+    width: 100%;
+    text-align: center;
+}
+.textoffer{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.offercontent{
+    display: flex;
+    margin-top: 60px;
+    column-gap:30px ;
+}
+.containerLeft{
+    display: flex;
+    width: 50%;
+    height: 249px;
+    background: darkkhaki;
+    position: relative;
+}
+.containerRight{
+    display: flex;
+    width: 50%;
+    height: 249px;
+    background: rgb(0, 30, 220);
+}
+.room{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 24px;
+}
+.sub-room{
+    position: absolute;
+    width: 227px;
+    margin-top: 67px;
+    margin-left: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color:rgba(117, 117, 117, 1);
+}
+.priceRppm{
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 128px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color:rgba(122, 199, 81, 1);
+}
+.oldpriceRoom{
+    position: absolute;
+    margin-top: 128px;
+    margin-left: 77px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color:rgba(204, 204, 204, 1);
+    text-decoration-line:line-through;
+}
+.btnRoom{
+    position: absolute;
+    width: 91px;
+    height: 26px;
+    background: rgba(122, 199, 81, 1);
+    border: none;
+    margin-top: 123px;
+    margin-left: 156px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #fff;
+}
+.containerElipse{
+    position: absolute;
+    display: flex;
+    width: 214px;
+    height: 40px;
+    margin-top: 180px;
+    margin-left: 24px;
+    column-gap: 20px;
+}
+.elipseRoom{
+    width: 40px;
+    height: 40px;
+    background: greenyellow;
+    border-radius: 50%;
+}
+.numeric{
+    padding-top: 6px;
+    padding-left: 10px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.sub-numeric{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 7px;
+    padding-left: 10px;
+}
+.Catagories{
+    position: absolute;
+    margin-left: 416px;
+    margin-top: 15px;
+}
+.inputIcon{
+    position: absolute;
+    Width:4.76px;
+    Height:7.71px;
+    margin-left: 495px;
+    margin-top: 20px;
+}
+span{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 7px;
+}
+.priceSlider{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    color:rgba(122, 199, 81, 1);
+}
+.pageslider{
+    position: absolute;
+    margin-top: 410px;
+    display: flex;
+    height: 12px;
+    column-gap: 15px;
+    align-items: center;
+}
+.ourProducts{
+    padding-top: 120px;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.more-products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    column-gap: 30px;
+    row-gap: 45px;
+
+    margin-top: 73px;
+}
+.card{
+    position: relative;
+    width: 270px;
+    overflow: hidden;
+}
+.type-card{
+    padding-top: 15.18px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(117, 117, 117, 0.71);
+}
+.name-card{
+    padding-top: 9px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.price-text{
+    display:flex;
+    column-gap: 7px;
+}
+.new-price{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(122, 199, 81, 1);
+}
+.old-price{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration-line: line-through;
+    color:#CCCCCC;;
+}
+.prise-conteiner{
+    display: flex;
+    padding-top: 8px;
+    justify-content: space-between;
+}
+.stars{
+    display: flex;
+    column-gap: 3.58px;
+}
+.starActive{
+    Width:10.53px;
+    Height:9.58px
+}
+.informationdiv{
+    position:absolute;
+    Width:44.68px;
+    Height:20.42px;
+    border-bottom-right-radius:5px;
+    margin-left: 1px;
+    color: white;
+    text-align: center;
+}
+.sale-card{
+    text-align: center;
+}
+.sal{
+    background: rgba(122, 199, 81, 1);
+}
+.Hoverfeature{
+    position: absolute;
+    margin-top: 83.59px;
+    margin-left: 231px;
+    transition-duration: 1s;
+    transform: translateX(100%);
+}
+.card:hover>.Hoverfeature{
+    transform: translateX(0);
+    transition-duration: 0.8s;
+}
+.Elipse{
+    
+    cursor: pointer;
+    display: flex;
+    width: 38.85px;
+    height: 38.89px;;
+    background: #fff;
+    border-radius: 50%;
+    margin-top: 8.75px;
+    align-items: center;
+    border: none;
+}
+.Elipse:hover{
+    background:rgba(122, 199, 81, 1);
+    transition-duration: 0.8s;
+    color: white;
+}
+.new-card{
+    text-align: center
+}
+.deactiveStar{
+    Width:10.53px;
+    Height:9.58px;
+}
+.discount{
+    background:rgba(255, 104, 104, 1);
+}
+.nav-ourProducts{
+    display: flex;
+    padding-top: 45px;
+    column-gap: 66px;
+    justify-content: center;
+}
+.link-our{
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(194, 194, 194, 1);
+}
+.active{
+    color:rgba(122, 199, 81, 1);
+}
+.page-more-products-container{
+    width: 570px;
+    height: 44px;
+    margin-left: 600px;
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.nextpage{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 161px;
+    height: 100%;
+    color: #fff;
+    padding-left: 30px;
+    background: rgba(122, 199, 81, 1);
+    border: none; 
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.arrowpage{
+    width: 14px;
+    height: 12.01px;
+    padding-left: 10px;
+}
+.page-more-products{
+    display: flex;
+    width: 266px;
+    height: 29px;
+    align-items: center;
+    justify-content: space-between;
+}
+.page-more{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(117, 117, 117, 1);
+    padding-right: 9px;
+}
+.input-page{
+    width: 58px;
+    height: 22px;
+    text-align: center;
+}
+.max-page{
+    padding-left: 19px;
+}
+.arrow-more{
+    display: flex;
+    width: 58px;
+    height: 29px;
+    background:rgba(122, 199, 81, 1);
+    column-gap: 2px;
+}
+.arrow-more-right{
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background:none;
+    align-items: center;
+    border: none;
+}
+.arrow-more-left{
+    cursor: pointer;
+    display: flex;
+    height: 100%;
+    width: 50%;
+    background: none;
+    align-items: center;
+    border: none;
+}
+.arrow-right{
+    Width:11.1px;
+    Height:6.5px;
+}
+.arrow-left{
+    Width:11.1px;
+    Height:6.5px;
+}
+.customer-Text{
+    text-align: center;
+    padding-top: 120px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.customer-Container{
+    display: flex;
+    width: 1034px;
+    height: 352px;
+    background: chartreuse;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+}
+.content{
+    display: flex;
+    position: relative;
+    width: 816px;
+    height: 312px;
+    background: crimson;
+    margin: 40px 113px 0 105px;
+    justify-content: center;
+    align-items: center;
+}
+.coment{
+    display: flex;
+    Width:566px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgba(81, 81, 81, 1);
+}
+.circle-customer{
+    position: absolute;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    bottom: 260px;
+    left: 47%;
+}
+.author{
+    padding-top: 32px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color:rgba(85, 85, 85, 1);
+}
+.text-customer{
+    text-align: center;
+}
+.Position{
+    padding-top: 8px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(81, 81, 81, 1);
+}
+.navigation-customer-left{
+    position: absolute;
+    Width:38px;
+    Height:23.47px;
+    padding-left: 25.33px;
+}
+.navigation-customer-right{
+    position: absolute;
+    Width:38px;
+    Height:23.47px;
+    margin: 63%;
+}
+.last-name{
+    text-align: center;
+    padding-top: 115px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1172px;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 22px;
+}
+.last-card{
+    width: 46%;
+    height: 455.28px;
+    padding-left: 46.1px;
+}
+.tagDiv{
+    display: flex;
+    height: 24px;
+    background: white;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    border-radius: 3px;
+}
+.furniture{
+    width: 99.6px;
+}
+.table{
+    width: 75px;
+}
+.Bench{
+    width: 82.83px;
+}
+.tag{
+    Width:13.15px;
+    Height:13.31px;
+}
+.tagtext{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color:rgba(122, 199, 81, 1);
+    text-transform: uppercase;
+}
+.last-buttonAndDate{
+    display: flex;
+    align-items: center;
+    column-gap: 4.93px;
+    margin-top: 252.47px;
+}
+.date{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+.item1{
+    background: url(/img/Card\.png);
+    background-repeat:no-repeat;
+}
+.last-Title{
+    padding-top: 20.6px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 39px;
+    color: white;
+}
+.read-more{
+    padding-top: 37.94px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.item2{
+    background: url(/img/Card\ \(1\).png);
+    background-repeat: no-repeat;
+}
+.item3{
+    background: url(/img/Card\ \(2\).png);
+    background-repeat: no-repeat;
+}
+.Chair{
+    width: 82.83px;
+}
+.item4{
+    background: url(/img/Card\ \(3\).png);
+    background-repeat:no-repeat;
+}
+footer{
+    display: flex;
+    height: 299px;
+    background:darkorchid;
+    padding-left: 10px;
+    margin-top: 115px;
+}
+.rightffotercontent{
+    width: 318px;
+}
+.helpcontent{
+    margin-left: 83px;
+    padding-top: 10px;
+}
+.help{
+    list-style: none;
+}
+.store{
+    list-style: none;
+}
+.supports{
+    list-style: none;
+}
+.storecontent{
+    margin-left: 180px;
+    padding-top: 10px;
+}
+.supportcontent{
+    margin-left: 180px;
+    padding-top: 10px;
+}
+.icon{
+    display: flex;
+    width: 147px;
+    height: 38.96px;
+    align-items: center;
+    column-gap: 5.21px;
+}
+.footer_icon{
+    Width:31.79px;
+}
+.text-icon{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+.aboutUs{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    padding-top: 15px;
+}
+.we-are-on-social-networks{
+    display: flex;
+    width: 173.8px;
+    height: 32.2px;
+    margin-top: 8px;
+    column-gap: 15px;
+}
+.facebook{
+    display: flex;
+    Width:32.2px;
+    Height:32.2px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.facebookIcon{
+    width: 8.24px;
+    height: 16.95px;
+}
+.twitterIcon{
+    width: 16.95px;
+    height: 13.77px;
+}
+
+.istagramIcon{
+    width: 16.1px;
+    height: 16.1px;
+}
+.pintersetIcon{
+    width: 13.04px;
+    height: 16.95px;
+}
+.helpname{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.PrivacyPolicy{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.storename{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.Furniture{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.suportname{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.Feedbcak{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+.foooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+.nav{
+    display: flex;
+    column-gap: 53px;
+}
+.Privacy{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(85, 85, 85, 1);
+}
+.Security{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(85, 85, 85, 1);
+}
+.Terms{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color:rgba(85, 85, 85, 1);
+}
+.funking{
+    color:rgba(85, 85, 85, 1);
+}
+/*
+font-family: 'Rubik', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+
+*/
